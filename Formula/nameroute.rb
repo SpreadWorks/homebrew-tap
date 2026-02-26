@@ -16,11 +16,11 @@ class Nameroute < Formula
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/SpreadWorks/name-route/releases/download/v0.1.0/nameroute-aarch64-unknown-linux-gnu"
-      sha256 "178124d9ecfa4b960c3a2527a20eb8c05fe35327288f8fe7d3201a65bad8450b"
+      url "https://github.com/SpreadWorks/name-route/releases/download/v0.1.0/nameroute-aarch64-unknown-linux-musl"
+      sha256 "8750946977376f4c6a3ba077c1ff06d1d9ec3a419db0cdb7ed27cd28f80c0f6b"
     else
-      url "https://github.com/SpreadWorks/name-route/releases/download/v0.1.0/nameroute-x86_64-unknown-linux-gnu"
-      sha256 "449bce6153bc16aa61a40927a6466937e62585b6cb43188b229ffff1ef84ad42"
+      url "https://github.com/SpreadWorks/name-route/releases/download/v0.1.0/nameroute-x86_64-unknown-linux-musl"
+      sha256 "4c2d0256c29b8547b5be6873d3a51ce71eff2313f293f2efb334c225bcdbfb1f"
     end
   end
 
