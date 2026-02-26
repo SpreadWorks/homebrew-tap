@@ -1,26 +1,26 @@
 class Nameroute < Formula
   desc "Local TCP L7 Router - Name it. We route it."
   homepage "https://github.com/SpreadWorks/name-route"
-  version "0.1.1-rc.1"
+  version "0.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/SpreadWorks/name-route/releases/download/v0.1.1-rc.1/nameroute-aarch64-apple-darwin"
-      sha256 "f3ad902bd61fd44a70aada79dba4fd521a0e16993a54a9d39f6f449bf6daf26c"
+      url "https://github.com/SpreadWorks/name-route/releases/download/v0.1.0/nameroute-aarch64-apple-darwin"
+      sha256 "041176fe48effed004e7754ab625a8f5768af276dafe86a352c151be1c7ae28d"
     else
-      url "https://github.com/SpreadWorks/name-route/releases/download/v0.1.1-rc.1/nameroute-x86_64-apple-darwin"
-      sha256 "9fc9c07533b2143ec1ad70953384c89f785e7048b1876a35c4c949ad7cba1fae"
+      url "https://github.com/SpreadWorks/name-route/releases/download/v0.1.0/nameroute-x86_64-apple-darwin"
+      sha256 "f6b7e53fd5259aacb943cd8d9e52c679aff024054db8a56681d9970616a17525"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/SpreadWorks/name-route/releases/download/v0.1.1-rc.1/nameroute-aarch64-unknown-linux-gnu"
-      sha256 "5502e6596dc80c5bdb1d9fc783996a95c36af98f322f006b52b411612111617a"
+      url "https://github.com/SpreadWorks/name-route/releases/download/v0.1.0/nameroute-aarch64-unknown-linux-gnu"
+      sha256 "178124d9ecfa4b960c3a2527a20eb8c05fe35327288f8fe7d3201a65bad8450b"
     else
-      url "https://github.com/SpreadWorks/name-route/releases/download/v0.1.1-rc.1/nameroute-x86_64-unknown-linux-gnu"
-      sha256 "47033ccdb02a3b1884476b7f865c0afc2af136c42f498c075f2eb6a9f96b646c"
+      url "https://github.com/SpreadWorks/name-route/releases/download/v0.1.0/nameroute-x86_64-unknown-linux-gnu"
+      sha256 "449bce6153bc16aa61a40927a6466937e62585b6cb43188b229ffff1ef84ad42"
     end
   end
 
